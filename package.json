@@ -2,7 +2,7 @@
   "name": "animated-signup-login",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://graphicskart.github.io/animated-signup-login",
+  "homepage": "https://graphicskart.github.io/animated-login-signup",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
