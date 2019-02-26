@@ -1,0 +1,177 @@
+body{
+	margin: 0;
+}
+.authCon{
+	height: 100vh;
+	display: flex;
+	background: #8bcee6;
+	align-items: center;
+    justify-content: center;
+}
+.authBox{
+	width: 500px;
+	background: #fff;
+	border-radius: 3px;
+	padding: 30px;
+	position: relative;
+	box-shadow: 5px 10px 60px rgba(0,0,0,0.1);
+	overflow: hidden;
+}
+.formCon h2{
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #4889e6;
+	margin-bottom: 30px;
+}
+.formBox input[type="text"], .formBox input[type="email"], .formBox input[type="password"]{
+	border-radius: 2px;
+	background: #dedede;
+	font-size: 14px;
+	height: 40px;
+}
+.formBox .form-group label{
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-bottom: 5px;
+	color: gray;
+}
+.formBox button[type="submit"]{
+	width: 100%;
+	border-radius: 2px;
+	background: #4889e6;
+	font-size: 14px;
+	text-transform: uppercase;
+	height: 40px;
+}
+.innerBox{
+	position: relative;
+}
+.innerBox .form-group{
+	float: left;
+}
+.forgotLink{
+	float: right;
+}
+.forgotLink a{
+	text-decoration: none;
+	color: #4889e6;
+}
+.signupCon{
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    right: -420px;
+    width: 450px;
+    padding: 30px 35px;
+    background: #4889e6;
+    transition: all ease-out 0.3s 0s;
+}
+.signupCon .formBox input[type="text"], .signupCon .formBox input[type="email"], .signupCon .formBox input[type="password"]{
+	background: #417ace;
+	border-color: #417ace;
+}
+
+.signupCon:after{
+	content: attr(x);
+	width: 50px;
+	height: 100%;
+	position: absolute;
+	background: rgba(0,0,0,0.8);
+	top: 0;
+	left: -50px;
+	transition: all ease-out 0.1s 0s;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.outterBox{
+	padding-right: 60px;
+}
+.leftBar{
+	width: 35px;
+	height: 100%;
+	position: absolute;
+	background: #4889e6;
+	left: 0;
+	top: 0;
+	cursor: pointer;
+	transition: all ease-out 0.1s 0s;
+	opacity: 1;
+}
+.leftBar:hover{
+	left: -3px;
+}
+.leftBar:after{
+	content: attr(x);
+	width: 10px;
+	height: 30px;
+	position: absolute;
+	top: 10%;
+	left: 10px;
+	border-right: solid 1px #ab9b9b;
+	border-left: solid 1px #ab9b9b;
+}
+
+.signupCon .formBox .form-group label{
+	color: #fff;
+}
+.signupCon .formCon h2{
+	color: #fff;
+}
+.signupCon .formBox button[type="submit"]{
+	color: #4889e6;
+	background: #fff;
+	margin-top: 20px;
+}
+
+.openedBar .signupCon{
+	right: 0;
+}
+.openedBar .leftBar{
+	pointer-events: none;
+	opacity: 0;
+}
+.openedBar .authBox{
+	overflow: visible;
+}
+.openedBar .signupCon:after{
+	pointer-events: auto;
+	opacity: 1;
+}
+.closeBtn{
+	position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    color: #848181;
+    transition: all linear 0.1s 0s;
+    cursor: pointer;
+}
+.closeBtn:hover{
+	transform: scale(1.2);
+}
+.outterCon{
+	overflow: hidden;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+@media(max-width: 500px){
+	.outterCon{
+		width: 100%;
+	}
+	.authBox{
+		width: 100%;
+	}
+
+	.signupCon{
+		width: calc(100% - 50px);
+		right: calc(-100% + 80px);
+	}
+}
