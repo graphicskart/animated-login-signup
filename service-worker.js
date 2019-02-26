@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/animated-signup-login/precache-manifest.f20b41a35250fbfe524ed4c0c7cd153e.js"
+  "/animated-login-signup/precache-manifest.8333f1a397096b53dd62e06435cb6875.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/animated-signup-login/index.html", {
+workbox.routing.registerNavigationRoute("/animated-login-signup/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

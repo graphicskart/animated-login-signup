@@ -1,13 +1,13 @@
 {
-  "main.css": "/animated-signup-login/static/css/main.f8e6ef15.chunk.css",
-  "main.js": "/animated-signup-login/static/js/main.a4264b3f.chunk.js",
-  "main.js.map": "/animated-signup-login/static/js/main.a4264b3f.chunk.js.map",
-  "runtime~main.js": "/animated-signup-login/static/js/runtime~main.d2fd211c.js",
-  "runtime~main.js.map": "/animated-signup-login/static/js/runtime~main.d2fd211c.js.map",
-  "static/js/2.2580d38f.chunk.js": "/animated-signup-login/static/js/2.2580d38f.chunk.js",
-  "static/js/2.2580d38f.chunk.js.map": "/animated-signup-login/static/js/2.2580d38f.chunk.js.map",
-  "index.html": "/animated-signup-login/index.html",
-  "precache-manifest.f20b41a35250fbfe524ed4c0c7cd153e.js": "/animated-signup-login/precache-manifest.f20b41a35250fbfe524ed4c0c7cd153e.js",
-  "service-worker.js": "/animated-signup-login/service-worker.js",
-  "static/css/main.f8e6ef15.chunk.css.map": "/animated-signup-login/static/css/main.f8e6ef15.chunk.css.map"
+  "main.css": "/animated-login-signup/static/css/main.f8e6ef15.chunk.css",
+  "main.js": "/animated-login-signup/static/js/main.e9ece032.chunk.js",
+  "main.js.map": "/animated-login-signup/static/js/main.e9ece032.chunk.js.map",
+  "runtime~main.js": "/animated-login-signup/static/js/runtime~main.21769dc8.js",
+  "runtime~main.js.map": "/animated-login-signup/static/js/runtime~main.21769dc8.js.map",
+  "static/js/2.2580d38f.chunk.js": "/animated-login-signup/static/js/2.2580d38f.chunk.js",
+  "static/js/2.2580d38f.chunk.js.map": "/animated-login-signup/static/js/2.2580d38f.chunk.js.map",
+  "index.html": "/animated-login-signup/index.html",
+  "precache-manifest.8333f1a397096b53dd62e06435cb6875.js": "/animated-login-signup/precache-manifest.8333f1a397096b53dd62e06435cb6875.js",
+  "service-worker.js": "/animated-login-signup/service-worker.js",
+  "static/css/main.f8e6ef15.chunk.css.map": "/animated-login-signup/static/css/main.f8e6ef15.chunk.css.map"
 }
